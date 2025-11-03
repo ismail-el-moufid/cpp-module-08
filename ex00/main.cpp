@@ -11,7 +11,7 @@ int main()
 
 	try
 	{
-		std::vector<int>::iterator it = easyfind(vec, 3);
+		std::vector<int>::iterator it = easyfind(vec, 2);
 		std::cout << "Found: " << *it << std::endl;
 	}
 	catch (const std::exception &e)
